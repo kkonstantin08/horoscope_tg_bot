@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from googletrans import Translator
 
-TOKEN = '6982390803:AAHcWC-Okn-LSkaZiMihcKaULEwME0r8UlE'
+TOKEN = 'YOUR_TOKEN'
 bot = telebot.TeleBot(TOKEN)
 translator = Translator()
 
